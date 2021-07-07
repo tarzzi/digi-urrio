@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply grid grid-flow-col p-4 h-40 mx-10 border-2 border-gray-400 rounded-2xl bg-white;
+  }
+}
