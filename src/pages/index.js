@@ -1,26 +1,52 @@
 import * as React from "react"
-
-
-
+import { StaticImage } from "gatsby-plugin-image"
+import {Helmet} from 'react-helmet';
+import Card from '../components/Card'
 
 const IndexPage = () => {
   return (
     <main>
+      <Helmet>
+        <meta
+            name="viewport"
+            content="minimum-scale=1, initial-scale=1, width=device-width"
+        />
+      </Helmet>
       <div id='banner' className='w-full block bg-black h-80 grid grid-cols-1 items-center justify-center'>
-          <h1 className='text-center text-5xl text-white my-auto'>Yrityksen nimi</h1>
+          <h1 className='text-center text-5xl text-white my-auto'>[KOTISIVUT BY TARMO]</h1>
       </div>
-      <div id='intro'>
+      <div id='bg'>
+        <div id='container' className='w-4/5 mx-auto'>
+            <div id='intro' className='text-center py-5 my-5 text-3xl'>
+              Lorem ipsum dolor sit amet asd, maximus nec ut nisl. Lorem ipsum dolor sit amet asd, maximus nec ut nisl. Lorem ipsum dolor sit amet asd, maximus nec ut nisl.
+          </div>
 
-      </div>
-      <div id='services' className='py-10 grid grid-cols-2 grid-rows-1 gap-2 justify-center items-center bg-gray-100'>
-        <div className='card'>
-          <p>X</p>
-          <p>
-            Lorem ipsum dolor sit amet asd, maximus nec ut nisl.
-          </p>
-        </div>
-        <div className='card'>
-          Lorem ipsum dolor sit amet asd, maximus nec ut nisl.
+          <div id='service' className='services'>
+            <Card>
+              <StaticImage src='https://placekitten.com/300/300' alt='kitten'></StaticImage>
+              <div className='pl-5'>
+                <h1>Title</h1>
+                <ul>
+                  <li>Information</li>
+                  <li>Information</li>
+                  <li>Information</li>
+                  <li>Offer</li>
+                </ul>
+              </div>
+            </Card>
+            <Card>
+              <StaticImage src='https://placekitten.com/300/300' alt='kitten'></StaticImage>
+              <div className='pl-5'>
+                <h1>Title</h1>
+                <ul>
+                  <li>Information</li>
+                  <li>Information</li>
+                  <li>Information</li>
+                  <li>Offer</li>
+                </ul>
+              </div>
+            </Card>
+          </div>
         </div>
       </div>
       </main>
