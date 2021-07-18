@@ -7,3 +7,41 @@
     @apply grid grid-flow-col p-4 h-40 mx-10 border-2 border-gray-400 rounded-2xl bg-white;
   }
 }
+.services{
+  margin: 0 auto;
+  padding: 2.5rem 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2rem;
+  align-items: center;
+}
+.cardbox{
+  display:flex;
+  justify-content: flex-start;
+  box-shadow: 1px 1px 2px 2px rgba(151, 153, 152, 0.2), -1px -1px 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  background-color: white;
+  p{
+    padding-left:2rem;
+  }
+  img{
+    border-radius: 1rem 0 0 1rem;
+
+  }
+  h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  ul{
+    list-style-type: none;
+    font-size: 1.2rem;
+  }
+  li{
+    background-color: black;
+    color:white;
+    border-radius: 1rem;
+    padding: 0.5rem 5rem 0.5rem 0.5rem;
+    margin: 0.2rem 0;
+  }
+
+}
