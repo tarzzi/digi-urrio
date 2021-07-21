@@ -2,6 +2,7 @@ import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import {Helmet} from 'react-helmet';
 import Card from '../components/Card'
+import Nav from '../components/Nav'
 
 const IndexPage = () => {
   return (
@@ -12,43 +13,21 @@ const IndexPage = () => {
             content="minimum-scale=1, initial-scale=1, width=device-width"
         />
       </Helmet>
+      <Nav></Nav>
       <div id='banner' className='w-full block bg-black h-80 grid grid-cols-1 items-center justify-center'>
-          <h1 className='text-center text-5xl text-white my-auto'>[KOTISIVUT BY TARMO]</h1>
+          <h1 className='text-center text-5xl text-white my-auto'>[PALVELUT BY TARMO]</h1>
       </div>
-      <div id='bg'>
-        <div id='container' className='w-4/5 mx-auto'>
-            <div id='intro' className='text-center py-5 my-5 text-3xl'>
-              Lorem ipsum dolor sit amet asd, maximus nec ut nisl. Lorem ipsum dolor sit amet asd, maximus nec ut nisl. Lorem ipsum dolor sit amet asd, maximus nec ut nisl.
-          </div>
-
-          <div id='service' className='services'>
-            <Card>
-              <StaticImage src='https://placekitten.com/300/300' alt='kitten'></StaticImage>
-              <div className='pl-5'>
-                <h1>Title</h1>
-                <ul>
-                  <li>Information</li>
-                  <li>Information</li>
-                  <li>Information</li>
-                  <li>Offer</li>
-                </ul>
-              </div>
-            </Card>
-            <Card>
-              <StaticImage src='https://placekitten.com/300/300' alt='kitten'></StaticImage>
-              <div className='pl-5'>
-                <h1>Title</h1>
-                <ul>
-                  <li>Information</li>
-                  <li>Information</li>
-                  <li>Information</li>
-                  <li>Offer</li>
-                </ul>
-              </div>
-            </Card>
-          </div>
-        </div>
-      </div>
+      {/*<div id='service' className='services'>*/}
+            <div className='bg-blue-300 float-left w-1/2 text-center py-20'>
+              <h2>Nettisivut</h2>
+              <p>Edullisesti, opiskelijahinta - erinomainen laatu</p>
+            </div>
+            <div className='bg-red-300 float-right w-1/2 text-center py-20'>
+              <h2>Digituki</h2>
+              <p>Eikö printteri asennu? Tökkiikö netti?</p>
+            </div>
+      {/*</div>*/}
+          <div id='contact'></div>
       </main>
   )
 }
