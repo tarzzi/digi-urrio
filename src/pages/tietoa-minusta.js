@@ -1,14 +1,11 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
 import {Helmet} from 'react-helmet';
-import Card from '../components/Card'
-import Nav from '../components/Nav'
 import Layout from '../components/Layout'
 import Banner from '../components/Banner'
 
 const IndexPage = () => {
   return (
-      <Layout>
+      <Layout >
       <main>
         <Helmet>
           <meta
@@ -16,14 +13,12 @@ const IndexPage = () => {
               content="minimum-scale=1, initial-scale=1, width=device-width"
           />
         </Helmet>
-        <Banner title='Digituki' />
+        <Banner title='Tietoa minusta' />
         <div id='bg'>
           <div id='container' className='w-4/5 mx-auto'>
 
             <div id='service' className='services'>
-              <p>Käynnit alkaen 30€/h</p>
-              <p>Tökkiikö netti? Eikö tulostin tulosta? Kaipaako vanhempi tukea tekniikan käytössä?</p>
-              <p>Huomioi myös kotitalousvähennys!</p>
+              <p>Puhelin numero</p><p>Sähköposti</p><p>Lomake</p>
             </div>
             <div id='contact'></div>
           </div>
