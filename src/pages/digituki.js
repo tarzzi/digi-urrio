@@ -1,8 +1,5 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
 import {Helmet} from 'react-helmet';
-import Card from '../components/Card'
-import Nav from '../components/Nav'
 import Layout from '../components/Layout'
 import Banner from '../components/Banner'
 

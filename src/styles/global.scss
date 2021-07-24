@@ -7,6 +7,9 @@
     @apply grid grid-flow-col p-4 h-40 mx-10 border-2 border-gray-400 rounded-2xl bg-white;
   }
 }
+*{
+  font-family: 'Poppins';
+}
 .services{
   display: grid;
   grid-template-columns: auto auto;
@@ -61,44 +64,6 @@ p{
     margin: 0.5rem 0.2rem;
   }
 
-}
-@media only screen and (max-width: 1100px){
-  .nav{
-    position: sticky;
-    background-color: white;
-    top: 0;
-    left: 0;
-    padding: 0.5rem 0;
-    text-align: left;
-    display: grid;
-    grid-template-rows: auto auto;
-    justify-content: center;
-  }
-}
-.nav{
-  border-bottom: 1px solid gray;
-  position: sticky;
-  background-color: white;
-  top: 0;
-  left: 0;
-  padding: 0.5rem 0;
-  text-align: left;
-  display: grid;
-  grid-template-rows: auto;
-  justify-content: center;
-  ul{
-    display: block;
-  }
-  ul li{
-    display: inline-block;
-    list-style-type: none;
-    margin: 0 2rem;
-    font-weight: bold;
-    font-size: 1.5rem;
-  }
-  a:hover{
-    color:red;
-  }
 }
 .foot{
   text-align: center;

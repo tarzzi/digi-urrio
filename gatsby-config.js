@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        siteUrl: 'https://www.yourdomain.tld',
+        siteUrl: 'https://www.digi.urrio.fi',
         title: 'Digi-Urrio',
     },
     plugins: [
@@ -8,6 +8,15 @@ module.exports = {
         'gatsby-plugin-postcss',
         'gatsby-plugin-transition-link',
         'gatsby-plugin-image',
+        {
+            resolve: `gatsby-plugin-google-fonts`,
+            options: {
+                fonts: [
+                    'Poppins'
+                ],
+                display: 'swap'
+            }
+        },
         {
             resolve: 'gatsby-plugin-google-analytics',
             options: {
