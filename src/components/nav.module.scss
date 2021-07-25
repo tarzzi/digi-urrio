@@ -10,15 +10,8 @@
   display: grid;
   grid-template-columns: auto auto auto auto auto ;
   justify-content: center;
-  ul{
-    display: block;
-  }
-  ul li{
-    display: inline-block;
-    list-style-type: none;
-    margin: 0 2rem;
-    font-weight: bold;
-    font-size: 1.5rem;
+  a{
+    margin: 0 1rem;
   }
   a:hover{
     color:red;
@@ -42,11 +35,9 @@
 @media only screen and (max-width: 740px){
   .nav{
     width: 100%;
+    font-size: 1.5rem;
     position: relative;
-    padding: 0.5rem 0;
-    text-align: center;
-    display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     justify-content: center;
   }
 }

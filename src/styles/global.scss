@@ -79,6 +79,7 @@ p{
 #nettisivut::before{
   content: "";
   background-image: url("../images/laptop.jpg");
+  background-position-y: -100px;
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -98,6 +99,7 @@ p{
 #digituki::before{
   content: "";
   background-image: url("../images/help.jpg");
+  background-position-y: -100px;
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -107,6 +109,13 @@ p{
   opacity: 0.75;
 }
 
+@media only screen and (max-width: 1200px) {
+  #nettisivut::before{
+    background-position-y: 0;
+}#digituki::before{
+   background-position-y: 0;
+   }
+ }
 .listline{
   list-style-type: circle;
   padding-left: 1rem;
