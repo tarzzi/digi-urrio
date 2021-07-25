@@ -67,7 +67,7 @@ p{
 }
 .foot{
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 10rem;
 }
 #nettisivut{
   position: relative;
@@ -118,5 +118,10 @@ p{
  }
 .listline{
   list-style-type: circle;
-  padding-left: 1rem;
+  padding-left: 3rem;
+}
+
+.serviceCard{
+  border: 9px outset #50cdff;
+  background-color: rgba(80,205,255,0.2);
 }

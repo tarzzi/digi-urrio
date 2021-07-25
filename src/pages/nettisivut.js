@@ -2,6 +2,7 @@ import * as React from "react"
 import {Helmet} from 'react-helmet';
 import Layout from '../components/Layout'
 import Banner from '../components/Banner'
+import ServiceCard from '../components/ServiceCard';
 
 const IndexPage = () => {
   return (
@@ -17,30 +18,35 @@ const IndexPage = () => {
         <div id='bg'>
           <div id='container' className='w-4/5 mx-auto'>
             <h2 className='text-center'>Paketit</h2>
-            <div className='grid grid-cols-2 gap-4'>
-              <div className='bg-blue-200 p-4 grid lg:grid-cols-3 sm:grid-cols-1'>
+            <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-4'>
+              <ServiceCard>
                 <div><h3>Simppeli</h3> 100€ + alv(24%)</div>
-                <div className='col-span-2 sm:col-span-1'><p>Sinulle, joka tahdot yksinkertaiset sivut saadaksesi yrityksesi nettiin.<br /> <br />Sisältää nopeasti toimivan, yhden sivun nettisivun toiveidesi mukaan, sekä hakukoneoptimoinnin.</p></div>
-              </div>
-              <div className='bg-blue-200 p-4 grid lg:grid-cols-3 sm:grid-cols-1'>
-                <div><h3>Laaja</h3> 250€ + alv(24%)</div>
-                <div  className='col-span-2'><p>Sinulle, joka tahdot laajemmat sivut yrityksellesi, sisältäen esimerkiksi useamman sivun.<br /> <br />Sisältää nopeasti toimivat nettisivut, toiveidesi mukaan, sekä hakukoneoptimoinnin.</p>
+                <div className='lg:col-span-2 md:col-span-2 sm:col-span-1'>
+                  <p>Sinulle, joka tahdot yksinkertaiset sivut saadaksesi itsesi tai yrityksesi nettiin.<br /> <br />
+                    Sisältää nopeasti toimivan, yhden sivun nettisivun toiveidesi mukaan, sekä hakukoneoptimoinnin.</p>
                 </div>
-              </div>
-              <div className='bg-blue-200 p-4 grid lg:grid-cols-3 sm:grid-cols-1'>
+              </ServiceCard>
+              <ServiceCard>
+                <div><h3>Laaja</h3> 250€ + alv(24%)</div>
+                <div  className='lg:col-span-2 md:col-span-2 sm:col-span-1'>
+                  <p>Sinulle, joka tahdot laajemmat sivut, sisältäen esimerkiksi useamman sivun.<br /> <br />
+                    Sisältää nopeasti toimivat nettisivut, toiveidesi mukaan, sekä hakukoneoptimoinnin.</p>
+                </div>
+              </ServiceCard>
+              <ServiceCard>
                 <div><h3>Jotain muuta?</h3></div>
-                <div className='col-span-2 sm:col-span-1'><p>Sinulle, joka tahdot tahdot juuri tarpeillesi räätälöidyn paketin.<br /> <br />Ota yhteyttä, niin suunnitellaan yhdessä juuri teille sopiva ratkaisu.</p></div>
-              </div>
-              <div className='bg-blue-200 p-4 grid lg:grid-cols-3 sm:grid-cols-1'>
+                <div className='lg:col-span-2 md:col-span-2 sm:col-span-1'><p>Sinulle, joka tahdot tahdot juuri tarpeillesi räätälöidyn paketin.<br /> <br />Ota yhteyttä, niin suunnitellaan yhdessä juuri teille sopiva ratkaisu.</p></div>
+              </ServiceCard>
+              <ServiceCard>
                 <div><h3>Palveluun sisältyy aina</h3></div>
-                <div className='col-span-2 sm:col-span-1'>
+                <div className='lg:col-span-2 md:col-span-2 sm:col-span-1'>
                   <ul className='listline'>
                     <li>Nopeasti latautuvat sivut</li>
                     <li>Kaikille päätelaitteille skaalautuvat sivut</li>
                     <li>Hakukoneoptimointi</li>
                     <li>Tyytyväisyystakuu</li>
                   </ul></div>
-              </div>
+              </ServiceCard>
             </div>
               <p>Mitä palveluun kuuluu?<br />Jos sinun ei tarvitse olla päivittämässä blogia, tai
                 haluat vain näkyvyyttä internettiin itsellesi tai yrityksellesi, voin olla ratkaisusi.
