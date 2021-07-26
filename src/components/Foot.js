@@ -4,7 +4,7 @@ export default function Foot() {
   return (
       <div className='foot'>
         <hr />
-        Y-Tunnus 0123124512 | Tarmo Urrio
+        Y-Tunnus 0123124512 | © Tarmo Urrio
       </div>
   )
 }

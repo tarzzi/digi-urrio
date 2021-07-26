@@ -3,21 +3,26 @@ import {Helmet} from 'react-helmet';
 import Layout from '../components/Layout'
 import Banner from '../components/Banner'
 import ServiceCard from '../components/ServiceCard';
+import SEO from '../components/SEO'
 
 const IndexPage = () => {
   return (
       <Layout>
       <main>
         <Helmet>
+          <meta charSet='utf-8' />
           <meta
               name="viewport"
               content="minimum-scale=1, initial-scale=1, width=device-width"
           />
+          <title>Nettisivut Digi-Urriolta</title>
+          <SEO title='Nettisivut Digi-Urriolta'  />
+
         </Helmet>
         <Banner title='Nettisivut' />
         <div id='bg'>
           <div id='container' className='w-4/5 mx-auto'>
-            <h2 className='text-center'>Paketit</h2>
+            <h2 className='text-center mb-5'>Paketit</h2>
             <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-4'>
               <ServiceCard title='Simppeli' price='100€ + alv(24%)'>
                 <div className='lg:col-span-2 md:col-span-2 sm:col-span-1'>
@@ -44,14 +49,12 @@ const IndexPage = () => {
                   </ul></div>
               </ServiceCard>
             </div>
-              <p>Mitä palveluun kuuluu?<br />Jos sinun ei tarvitse olla päivittämässä blogia, tai
-                haluat vain näkyvyyttä internettiin itsellesi tai yrityksellesi, voin olla ratkaisusi.
-                Toteutan nettisivut teidän visiota noudattaen ja annan lopputulokselle tyytyväisyystakuun.
-                Mikäli sinua ei miellytä, hienosäädetään kunnes miellyttää! Lasku saapuu vasta, kun olet tyytyväinen tulokseen.
-                Näyttävät, toimivat, eri laitteilla pelittävät, nopeasti latautuvat sivut joissa on hakukoneoptimointi mukana.</p>
+            <div className='my-8'>
+              <h3>Tähän usein kysyttyä nettisivuista </h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in luctus est, eu auctor lacus. Suspendisse pulvinar, sem at mollis pretium, ligula justo ultrices urna, ut vestibulum odio arcu vel tortor. Donec vehicula accumsan feugiat. Duis ornare sed nisi mattis hendrerit. Sed sagittis tellus ac purus porttitor euismod. Curabitur felis nibh, hendrerit quis placerat id, placerat in quam. Nullam malesuada mollis suscipit. Etiam interdum odio non tellus ullamcorper, non fringilla eros ornare. Sed fermentum fringilla est, vehicula pellentesque ligula lobortis eu.</p>
             </div>
-            <div id='contact'></div>
           </div>
+        </div>
       </main>
       </Layout>
   )
