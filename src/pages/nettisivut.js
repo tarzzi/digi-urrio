@@ -19,26 +19,22 @@ const IndexPage = () => {
           <div id='container' className='w-4/5 mx-auto'>
             <h2 className='text-center'>Paketit</h2>
             <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-4'>
-              <ServiceCard>
-                <div><h3>Simppeli</h3> 100€ + alv(24%)</div>
+              <ServiceCard title='Simppeli' price='100€ + alv(24%)'>
                 <div className='lg:col-span-2 md:col-span-2 sm:col-span-1'>
                   <p>Sinulle, joka tahdot yksinkertaiset sivut saadaksesi itsesi tai yrityksesi nettiin.<br /> <br />
                     Sisältää nopeasti toimivan, yhden sivun nettisivun toiveidesi mukaan, sekä hakukoneoptimoinnin.</p>
                 </div>
               </ServiceCard>
-              <ServiceCard>
-                <div><h3>Laaja</h3> 250€ + alv(24%)</div>
+              <ServiceCard title='Laaja' price='250€ + alv(24%)'>
                 <div  className='lg:col-span-2 md:col-span-2 sm:col-span-1'>
                   <p>Sinulle, joka tahdot laajemmat sivut, sisältäen esimerkiksi useamman sivun.<br /> <br />
                     Sisältää nopeasti toimivat nettisivut, toiveidesi mukaan, sekä hakukoneoptimoinnin.</p>
                 </div>
               </ServiceCard>
-              <ServiceCard>
-                <div><h3>Jotain muuta?</h3></div>
+              <ServiceCard title='Jotain muuta?'>
                 <div className='lg:col-span-2 md:col-span-2 sm:col-span-1'><p>Sinulle, joka tahdot tahdot juuri tarpeillesi räätälöidyn paketin.<br /> <br />Ota yhteyttä, niin suunnitellaan yhdessä juuri teille sopiva ratkaisu.</p></div>
               </ServiceCard>
-              <ServiceCard>
-                <div><h3>Palveluun sisältyy aina</h3></div>
+              <ServiceCard title='Palveluun sisältyy aina'>
                 <div className='lg:col-span-2 md:col-span-2 sm:col-span-1'>
                   <ul className='listline'>
                     <li>Nopeasti latautuvat sivut</li>

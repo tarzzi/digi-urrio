@@ -19,25 +19,21 @@ const IndexPage = () => {
             <div id='container' className='w-4/5 mx-auto'>
               <h2 className='text-center'>Paketit</h2>
               <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-4'>
-                <ServiceCard>
-                  <div><h3>Atk-tuki</h3> 30€/h</div>
+                <ServiceCard title='Atk-tuki' price='30€/h'>
                   <div  className='lg:col-span-2 md:col-span-2 sm:col-span-1'>
                     <p>Tökkiikö netti? Eikö tulostin tulosta?</p>
                     <p>Apua pienempiin ja suurempiin tekniikan vastoinkäymisiin.</p></div>
                 </ServiceCard>
-                <ServiceCard>
-                  <div><h3>Käyttöopastus</h3> 30€/h</div>
+                <ServiceCard title='Käyttöopastus' price='30€/h'>
                   <div  className='lg:col-span-2 md:col-span-2 sm:col-span-1'>
                     <p>Sinulle, joka tahdot laajemmat sivut, sisältäen esimerkiksi useamman sivun.<br /> <br />
                       Sisältää nopeasti toimivat nettisivut, toiveidesi mukaan, sekä hakukoneoptimoinnin.</p>
                   </div>
                 </ServiceCard>
-                <ServiceCard>
-                  <div><h3>Jotain muuta?</h3></div>
+                <ServiceCard title='Jotain muuta?'>
                   <div className='lg:col-span-2 md:col-span-2 sm:col-span-1'><p>Sinulle, joka tahdot tahdot juuri tarpeillesi räätälöidyn paketin.<br /> <br />Ota yhteyttä, niin suunnitellaan yhdessä juuri teille sopiva ratkaisu.</p></div>
                 </ServiceCard>
-                <ServiceCard>
-                  <div><h3>Palveluun sisältyy aina</h3></div>
+                <ServiceCard title='Palveluun sisältyy aina'>
                   <div className='lg:col-span-2 md:col-span-2 sm:col-span-1'>
                     <ul className='listline'>
                       <li>Nopeasti latautuvat sivut</li>
