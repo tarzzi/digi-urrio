@@ -17,12 +17,12 @@ const IndexPage = () => {
       <Banner title='DIGI-URRIO' />
       {/*<div id='service' className='services'>*/}
       <Link to='/nettisivut' className='link transition-all'>
-            <div id='nettisivut' className='float-left w-1/2 text-center py-20 hover:translate-x-1 hover:-rotate-12'>
+            <div id='nettisivut' className='w-1/2 text-center py-20'>
                 <h2>Nettisivut</h2>
             </div>
       </Link>
       <Link to='/digituki' className='link'>
-            <div id='digituki' className='float-right w-1/2 text-center py-20'>
+            <div id='digituki' className='w-1/2 text-center py-20'>
               <h2>Digituki</h2>
             </div>
       </Link>

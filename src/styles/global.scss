@@ -70,6 +70,7 @@ p{
   margin-top: 10rem;
 }
 #nettisivut{
+  float:left;
   transition: color 300ms, font-size 300ms;
   position: relative;
   height: 30vh;
@@ -93,6 +94,7 @@ p{
 }
 
 #digituki{
+  float:right;
   position: relative;
   height: 30vh;
   display: flex;
@@ -184,4 +186,24 @@ textarea{
 .button:hover{
   background-color: rgba(224,224,224,1);
 
+}
+
+@media only screen and (max-width: 740px) {
+  #nettisivut,#digituki{
+    float: none;
+    width: 100%;
+    h2, h2:hover {
+      font-size: 4rem;
+      color: white;
+      text-shadow: 0 0 5px black;
+    }
+  }
+  .link:active #nettisivut::before, .link:active #digituki::before {
+    transition: opacity 50ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 1;
+  }
+  #banner{
+    padding: 1rem 0;
+  }
 }
