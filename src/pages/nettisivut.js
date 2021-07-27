@@ -3,7 +3,7 @@ import {Helmet} from 'react-helmet';
 import Layout from '../components/Layout'
 import Banner from '../components/Banner'
 import ServiceCard from '../components/ServiceCard';
-import SEO from '../components/SEO'
+import Seo from '../components/Seo'
 
 const IndexPage = () => {
   return (
@@ -16,7 +16,7 @@ const IndexPage = () => {
               content="minimum-scale=1, initial-scale=1, width=device-width"
           />
           <title>Nettisivut Digi-Urriolta</title>
-          <SEO title='Nettisivut Digi-Urriolta'  />
+          <Seo title='Nettisivut Digi-Urriolta'  />
 
         </Helmet>
         <Banner title='Nettisivut' />

@@ -17,9 +17,9 @@ const IndexPage = () => {
         <Banner title='Tietoa minusta' />
         <div id='bg'>
           <div id='container' className='w-4/5 mx-auto'>
-            <div className='grid grid-cols-3 gap-5'>
-              <StaticImage className='' src='https://placekitten.com/800/600' alt='cat' ></StaticImage>
-              <div className='col-span-2' >
+            <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-5 justify-center items-center'>
+              <StaticImage className='rounded-full mx-auto' src='../images/profile.jpg' alt='Tarmo Urrio' ></StaticImage>
+              <div className='lg:col-span-2 md:col-span-2 sm:col-span-1' >
                 <p className='font-semibold text-2xl mb-2'>Hei! Olen Tarmo, ohjelmistotekniikan opiskelija Jyväskylästä.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in luctus est, eu auctor lacus. Suspendisse pulvinar, sem at mollis pretium, ligula justo ultrices urna, ut vestibulum odio arcu vel tortor. Donec vehicula accumsan feugiat. Duis ornare sed nisi mattis hendrerit. Sed sagittis tellus ac purus porttitor euismod. Curabitur felis nibh, hendrerit quis placerat id, placerat in quam. Nullam malesuada mollis suscipit. Etiam interdum odio non tellus ullamcorper, non fringilla eros ornare. Sed fermentum fringilla est, vehicula pellentesque ligula lobortis eu.</p>
               </div>

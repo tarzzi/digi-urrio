@@ -14,13 +14,17 @@
     margin: 0 1rem;
   }
   a:hover{
-    color:red;
+    color: rgb(0, 142, 208);
   }
+}
+
+.navBurger{
+  display: none;
 }
 
 @media only screen and (max-width: 1100px){
   .nav{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     position: sticky;
     background-color: white;
     top: 0;
@@ -34,10 +38,21 @@
 }
 @media only screen and (max-width: 740px){
   .nav{
+    display: none;
+  }
+  .navBurger{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(114, 114, 114, 0.5);
     width: 100%;
     font-size: 1.5rem;
     position: relative;
-    grid-template-columns: auto;
-    justify-content: center;
+    button{
+      border: none;
+    }
   }
 }
