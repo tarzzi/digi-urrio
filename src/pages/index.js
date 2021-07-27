@@ -15,8 +15,7 @@ const IndexPage = () => {
         />
       </Helmet>
       <Banner title='DIGI-URRIO' />
-      {/*<div id='service' className='services'>*/}
-      <Link to='/nettisivut' className='link transition-all'>
+      <Link to='/nettisivut' className='link'>
             <div id='nettisivut' className='w-1/2 text-center py-20'>
                 <h2>Nettisivut</h2>
             </div>
