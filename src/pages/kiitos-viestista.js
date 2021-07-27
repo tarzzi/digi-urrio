@@ -14,6 +14,7 @@ const IndexPage = () => {
                 content="minimum-scale=1, initial-scale=1, width=device-width"
             />
           </Helmet>
+          <div className='bg'>
           <Banner title='Kiitos viestistäsi!' />
             <div id='container' className='w-4/5 mx-auto text-center'>
               <h3>Vastaamme sinulle mahdollisimman pian 🙂</h3>
@@ -21,6 +22,7 @@ const IndexPage = () => {
                 <Link className='button transition-all duration-200' to='/'>Takaisin etusivulle</Link>
               </div>
             </div>
+          </div>
         </main>
       </Layout>
   )

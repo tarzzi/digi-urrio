@@ -7,7 +7,7 @@ import ServiceCard from '../components/ServiceCard';
 const IndexPage = () => {
   return (
       <Layout>
-        <main>
+        <main className='bg'>
           <Helmet>
             <meta
                 name="viewport"

@@ -13,6 +13,7 @@ const IndexPage = () => {
               content="minimum-scale=1, initial-scale=1, width=device-width"
           />
         </Helmet>
+        <div className='bg'>
         <Banner title='Ota yhteyttä' />
           <div id='container' className='my-4 w-4/5 mx-auto'>
             <div className='grid grid-cols-1 justify-center items-center text-center gap-8'>
@@ -42,6 +43,7 @@ const IndexPage = () => {
               <button type="submit">Lähetä</button>
             </form>
           </div>
+        </div>
       </main>
       </Layout>
   )

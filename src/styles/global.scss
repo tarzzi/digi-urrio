@@ -7,8 +7,22 @@
     @apply grid grid-flow-col p-4 h-40 mx-10 border-2 border-gray-400 rounded-2xl bg-white;
   }
 }
+$color-main: rgba(0, 142, 208,0.09);
 *{
   font-family: 'Poppins', sans-serif;
+}
+.banner{
+  background: #f7f7f7;
+  background: linear-gradient(180deg,$color-main 0%, #ffffff 30%);
+  background: -webkit-linear-gradient(180deg,$color-main 0%, #ffffff 30%);
+  background: -moz-linear-gradient(180deg,$color-main 0%, #ffffff 30%);
+}
+.gradient-b{
+  background: #f5f5f5;
+  background: linear-gradient(0deg,$color-main 0%, #ffffff 30%);
+  background: -webkit-linear-gradient(0deg,$color-main 0%, #ffffff 30%);
+  background: -moz-linear-gradient(0deg,$color-main 0%, #ffffff 30%);
+
 }
 .burger{
     width: 35px;
@@ -73,13 +87,13 @@ p{
 }
 .foot{
   text-align: center;
-  margin-top: 10rem;
 }
 #nettisivut{
   float:left;
   transition: color 300ms, font-size 300ms;
   position: relative;
-  height: 30vh;
+  height: 50vh;
+  border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -102,7 +116,8 @@ p{
 #digituki{
   float:right;
   position: relative;
-  height: 30vh;
+  height: 50vh;
+  border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -151,10 +166,11 @@ p{
 }
 
 .serviceCard{
-  border: 9px outset #50cdff;
-  background-color: rgba(80,205,255,0.2);
+  border: 9px ridge #67c3ff;
+  background-color: rgb(255, 255, 255);
 }
 .lomake{
+  background-color: white;
   border: 1px outset black;
   padding: 2em;
   p{
