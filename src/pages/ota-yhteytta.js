@@ -20,19 +20,19 @@ const IndexPage = () => {
               <p>Sähköposti: digi@urrio.fi</p>
               <h4>Voit myös laittaa kyselyn oheisen lomakkeen kautta</h4>
             </div>
-            <form className='grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-2 my-5 mx-auto w-1/2 lomake' acceptCharset="UTF-8" action="https://formsubmit.co/234a581c88e120675a986e900a8ef1b2" method="POST">
+            <form className='grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-2 my-5 mx-auto w-1/2 lomake' acceptCharset="UTF-8" action="https://formsubmit.co/tarmo@urrio.fi" method="POST">
 
               <p>Nimi</p>
-                <input className='sm:col-span-1 lg:col-span-2' type="text" name="name" placeholder="" />
+                <input className='sm:col-span-1 md:col-span-1 lg:col-span-2' type="text" name="name" placeholder="" />
 
               <p>Puhelinnumero</p>
-                <input className='sm:col-span-1 lg:col-span-2'  type="tel" name="phone" placeholder=""/>
+                <input className='sm:col-span-1 md:col-span-1 lg:col-span-2'  type="tel" name="phone" placeholder=""/>
 
               <p>Sähköpostiosoite</p>
-                <input className='sm:col-span-1 lg:col-span-2' type="email" name="email" placeholder="" />
+                <input className='sm:col-span-1 md:col-span-1 lg:col-span-2' type="email" name="email" placeholder="" />
 
               <p>Viestisi</p>
-              <textarea className='sm:col-span-1 lg:col-span-2' maxLength='350' rows="4" cols="50" name="message" placeholder="Viestisi" />
+              <textarea className='sm:col-span-1 md:col-span-1 lg:col-span-2' maxLength='350' rows="4" cols="50" name="message" placeholder="Viestisi" />
 
               <input type="hidden" name="_next" value="https://digi-urrio.vercel.app/kiitos-viestista" />
               <input type="hidden" name="_captcha" value="false" />
