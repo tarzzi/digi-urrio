@@ -8,6 +8,7 @@ module.exports = {
         'gatsby-plugin-postcss',
         'gatsby-plugin-transition-link',
         'gatsby-plugin-image',
+        'gatsby-plugin-anchor-links',
         {
             resolve: `gatsby-plugin-google-fonts`,
             options: {

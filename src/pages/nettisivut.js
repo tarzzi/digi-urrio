@@ -16,7 +16,6 @@ const IndexPage = () => {
           />
           <title>Nettisivut Digi-Urriolta</title>
         </Helmet>
-        <div>
         <Banner title='Nettisivut' subtitle='Nettisivut oman maun mukaan' idName='b2' />
           <div id='container' className='my-8  w-4/5 mx-auto'>
             <h2 className='text-center mb-5'>Paketit</h2>
@@ -46,12 +45,11 @@ const IndexPage = () => {
                   </ul></div>
               </ServiceCard>
             </div>
-            <div className='my-8'>
+            <div className='mt-8 mb-20'>
               <h3>Tähän usein kysyttyä nettisivuista </h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in luctus est, eu auctor lacus. Suspendisse pulvinar, sem at mollis pretium, ligula justo ultrices urna, ut vestibulum odio arcu vel tortor. Donec vehicula accumsan feugiat. Duis ornare sed nisi mattis hendrerit. Sed sagittis tellus ac purus porttitor euismod. Curabitur felis nibh, hendrerit quis placerat id, placerat in quam. Nullam malesuada mollis suscipit. Etiam interdum odio non tellus ullamcorper, non fringilla eros ornare. Sed fermentum fringilla est, vehicula pellentesque ligula lobortis eu.</p>
             </div>
           </div>
-        </div>
       </main>
       </Layout>
   )

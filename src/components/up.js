@@ -1,16 +1,16 @@
 import React from "react"
-import {Link} from 'gatsby';
+import { AnchorLink} from 'gatsby-plugin-anchor-links';
+
 
 export default function Up() {
   return (<>
-  <Link to='#navi'>
+  <AnchorLink to='/'>
       <div className='upbtn'>
-          <div className='text-center grid grid-cols-1 justify-center items-center'>
+          <div className='text-center font-2 text-4xl grid grid-cols-1 justify-center items-center'>
             ⬆️
           </div>
-
       </div>
-  </Link>
+  </AnchorLink>
       </>
   )
 }

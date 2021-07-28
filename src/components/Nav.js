@@ -10,11 +10,11 @@ export default function Nav() {
           <BurgerNav />
         </div>
         <div id='navi'  className={`nav ${navStyles.nav}`}>
-          <Link className='transition-all duration-200' to='/'>Digi-Urrio</Link>
-          <Link className='transition-all duration-200' to='/nettisivut'>Nettisivut</Link>
-          <Link className='transition-all duration-200' to='/digituki' >Digituki</Link>
-          <Link className='transition-all duration-200' to='/tietoa-minusta' >Tietoa minusta</Link>
-          <Link className='transition-all duration-200' to='/ota-yhteytta' >Ota yhteyttä</Link>
+          <Link activeClassName="active" className='transition-all duration-200' to='/'>Digi-Urrio</Link>
+          <Link activeClassName="active" className='transition-all duration-200' to='/nettisivut'>Nettisivut</Link>
+          <Link activeClassName="active" className='transition-all duration-200' to='/digituki' >Digituki</Link>
+          <Link activeClassName="active" className='transition-all duration-200' to='/tietoa-minusta' >Tietoa minusta</Link>
+          <Link activeClassName="active" className='transition-all duration-200' to='/ota-yhteytta' >Ota yhteyttä</Link>
         </div>
   </>
   )
