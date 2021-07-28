@@ -15,9 +15,9 @@ const IndexPage = () => {
           />
         </Helmet>
         <div className='bg'>
-        <Banner title='Tietoa minusta' />
+        <Banner title='Tietoa minusta' subtitle='Eli yrittäjä paketissa' idName='b4' />
         <div id='bg'>
-          <div id='container' className='w-4/5 mx-auto'>
+          <div id='container' className='mt-8 w-4/5 mx-auto'>
             <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-5 justify-center items-center'>
               <StaticImage className='rounded-full mx-auto' src='https://urrio.fi/profile.jpg' alt='Tarmo Urrio' ></StaticImage>
               <div className='lg:col-span-2 md:col-span-2 sm:col-span-1' >

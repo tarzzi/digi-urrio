@@ -14,8 +14,8 @@ const IndexPage = () => {
           />
         </Helmet>
         <div className='bg'>
-        <Banner title='Ota yhteyttä' />
-          <div id='container' className='my-4 w-4/5 mx-auto'>
+        <Banner title='Ota yhteyttä' subtitle='Kysyjälle vastataan' idName='b5' />
+          <div id='container' className='mt-8 my-4 w-4/5 mx-auto'>
             <div className='grid grid-cols-1 justify-center items-center text-center gap-8'>
               <p>Puhelin: 050-1234567</p>
               <p>Sähköposti: digi@urrio.fi</p>

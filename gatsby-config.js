@@ -12,7 +12,8 @@ module.exports = {
             resolve: `gatsby-plugin-google-fonts`,
             options: {
                 fonts: [
-                    'Poppins'
+                    'Poppins',
+                    'Encode Sans SC'
                 ],
                 display: 'swap'
             }

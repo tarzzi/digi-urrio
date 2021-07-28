@@ -7,22 +7,70 @@
     @apply grid grid-flow-col p-4 h-40 mx-10 border-2 border-gray-400 rounded-2xl bg-white;
   }
 }
+$border-color: rgba(114, 114, 114, 0.5);
 $color-main: rgba(0, 142, 208,0.09);
+$color-bg: rgba(0, 142, 208, 1);
+
 *{
   font-family: 'Poppins', sans-serif;
 }
+/*
 .banner{
-  background: #f7f7f7;
-  background: linear-gradient(180deg,$color-main 0%, #ffffff 30%);
-  background: -webkit-linear-gradient(180deg,$color-main 0%, #ffffff 30%);
-  background: -moz-linear-gradient(180deg,$color-main 0%, #ffffff 30%);
+  background: rgba(0, 142, 208,0.09);
+  background: linear-gradient(180deg,rgba(0, 142, 208,0.09) 0%, #ffffff 20%, #ffffff 80%, rgba(0, 142, 208,0.09) 100%);
+  background: -webkit-linear-gradient(180deg,rgba(0, 142, 208,0.09) 0%, #ffffff 20%, #ffffff 80%, rgba(0, 142, 208,0.09) 100%);
+  background: -moz-linear-gradient(180deg,rgba(0, 142, 208,0.09) 0%, #ffffff 20%, #ffffff 80%, rgba(0, 142, 208,0.09) 100%);
+  border-bottom: 1px solid black;
 }
+ */
+.banner{
+  border-bottom: 1px solid $border-color;
+  color: white;
+  text-shadow: 0px 0px 36px rgba(0,0,0,1);
+  h1{
+    letter-spacing: 3px;
+  }
+}
+.text-shadow{
+  text-shadow: 0px 0px 36px rgba(0,0,0,1);
+}
+#b1{
+  background-image: url("../images/colors.jpg");
+  background-size: cover;
+}
+#b2{
+  background-image: url("../images/laptop.jpg");
+  background-size: 100%;
+}
+#b3{
+  background-image: url("../images/desk.jpg");
+  background-size: cover;
+}
+#b4{
+  background-image: url("../images/keyboard.png");
+  background-size: cover;
+}
+#b5{
+  background-image: url("../images/keyboard-close.jpg");
+  background-size: cover;
+}
+
+.upbtn{
+  display: none;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+
 .gradient-b{
   background: #f5f5f5;
   background: linear-gradient(0deg,$color-main 0%, #ffffff 30%);
   background: -webkit-linear-gradient(0deg,$color-main 0%, #ffffff 30%);
   background: -moz-linear-gradient(0deg,$color-main 0%, #ffffff 30%);
 
+}
+.container{
+  margin-top: 2rem;
 }
 .burger{
     width: 35px;
@@ -42,7 +90,8 @@ $color-main: rgba(0, 142, 208,0.09);
   }
 }
 h1{
-  color:black;
+  font-family: 'Encode Sans SC', sans-serif;
+  font-weight: bolder;
 }
 h2{
   font-weight: bold;
@@ -86,14 +135,26 @@ p{
 
 }
 .foot{
+  background-color: white;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 0.5px solid rgba(129, 129, 129, 0.38);
 }
+
+
+
+
 #nettisivut{
   float:left;
   transition: color 300ms, font-size 300ms;
   position: relative;
   height: 50vh;
-  border: 1px solid black;
+  border: 1px solid $border-color;
+  border-top: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,7 +164,6 @@ p{
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   content: "";
   background-image: url("../images/laptop.jpg");
-  background-position-y: -100px;
   background-size: cover;
   position: absolute;
   top: 0;
@@ -117,7 +177,8 @@ p{
   float:right;
   position: relative;
   height: 50vh;
-  border: 1px solid black;
+  border: 1px solid $border-color;
+  border-top: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -128,7 +189,6 @@ p{
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   content: "";
   background-image: url("../images/help.jpg");
-  background-position-y: -100px;
   background-size: cover;
   position: absolute;
   top: 0;
@@ -153,21 +213,22 @@ p{
   font-size: 2.5rem;
   text-shadow: 0 0 5px black;
 }
-@media only screen and (max-width: 1200px) {
-  #nettisivut::before{
-    background-position-y: 0;
-}#digituki::before{
-   background-position-y: 0;
-   }
- }
+
 .listline{
   list-style-type: circle;
   padding-left: 3rem;
 }
 
 .serviceCard{
-  border: 9px ridge #67c3ff;
+  transition: box-shadow 400ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  border: 9px ridge $border-color;
   background-color: rgb(255, 255, 255);
+}
+.serviceCard:hover{
+  box-shadow: 1px 1px 23px -2px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 1px 1px 23px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 1px 23px -2px rgba(0,0,0,0.75);
 }
 .lomake{
   background-color: white;
@@ -208,6 +269,11 @@ textarea{
   background-color: rgba(224,224,224,1);
 
 }
+.foot:hover{
+  a{
+    color: rgb(0, 142, 208);
+  }
+}
 
 @media only screen and (max-width: 740px) {
   #nettisivut,#digituki{
@@ -224,9 +290,6 @@ textarea{
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     opacity: 1;
   }
-  #banner{
-    padding: 1rem 0;
-  }
   .lomake{
     border: 1px outset black;
     padding: 2em;
@@ -235,5 +298,10 @@ textarea{
       display: block;
     }
   }
-
+  .upbtn{
+    display: block;
+    position: fixed;
+    bottom: 2rem;
+    right: 0.1rem;
+  }
 }

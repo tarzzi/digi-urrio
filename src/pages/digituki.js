@@ -14,8 +14,8 @@ const IndexPage = () => {
                 content="minimum-scale=1, initial-scale=1, width=device-width"
             />
           </Helmet>
-          <Banner title='Digituki' />
-            <div id='container' className='w-4/5 mx-auto'>
+          <Banner title='Digituki' subtitle='Apuna digiviidakossa' idName='b3' />
+            <div id='container' className='mt-8 w-4/5 mx-auto'>
               <h2 className='text-center mb-5'>Palvelut Jyväskylän alueella</h2>
               <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-4'>
                 <ServiceCard title='Atk-tuki' price='30€/h'>

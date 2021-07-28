@@ -14,7 +14,7 @@ const IndexPage = () => {
             content="minimum-scale=1, initial-scale=1, width=device-width"
         />
       </Helmet>
-      <Banner title='DIGI-URRIO' />
+      <Banner title='DIGI-URRIO' subtitle='Ei pelkkää koodia' idName='b1' />
       <Link to='/nettisivut' className='link'>
             <div id='nettisivut' className='w-1/2 text-center py-20'>
                 <h2>Nettisivut</h2>
