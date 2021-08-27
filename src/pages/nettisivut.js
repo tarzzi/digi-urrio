@@ -47,7 +47,7 @@ const IndexPage = () => {
             </div>
             <div className='mt-8 mb-20'>
               <h3>Mitä nettisivuihin tarvitsee?</h3>
-              <p>Nettisivuja tehdessä, tarvitset oman verkko-osoitteen, sekä palvelun jossa sivut ovat ylläpidettyinä. Mikäli sinulla ei vielä näitä ole, voin olla avuksi näiden hankkimisessa tai voin toteuttaa sinulle avaimet-käteen periaatteella ratkaisun. Huomioithan, että verkkotunnus, sekä web-hotelli ovat kuukausi/vuosi-tasoilla erikseen maksettavia palveluita. Jäikö jokin mietityttämään? Ota yhteyttä niin toteutetaan sinulle yhdessä paras ratkaisu!</p>
+              <p>Nettisivuja tehdessä, tarvitset oman verkko-osoitteen, sekä palvelun jossa sivut ovat ylläpidettyinä. Mikäli sinulla ei vielä näitä ole, voin olla avuksi näiden hankkimisessa tai voin toteuttaa sinulle avaimet-käteen periaatteella ratkaisun. Huomioithan, että verkkotunnus, sekä web-hotelli ovat kuukausi/vuosi-tasoilla erikseen maksettavia palveluita. Jäikö jokin mietityttämään? Ota yhteyttä, niin toteutetaan sinulle yhdessä paras ratkaisu!</p>
             </div>
           </div>
       </main>
