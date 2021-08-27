@@ -46,8 +46,8 @@ const IndexPage = () => {
               </ServiceCard>
             </div>
             <div className='mt-8 mb-20'>
-              <h3>Tähän usein kysyttyä nettisivuista </h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in luctus est, eu auctor lacus. Suspendisse pulvinar, sem at mollis pretium, ligula justo ultrices urna, ut vestibulum odio arcu vel tortor. Donec vehicula accumsan feugiat. Duis ornare sed nisi mattis hendrerit. Sed sagittis tellus ac purus porttitor euismod. Curabitur felis nibh, hendrerit quis placerat id, placerat in quam. Nullam malesuada mollis suscipit. Etiam interdum odio non tellus ullamcorper, non fringilla eros ornare. Sed fermentum fringilla est, vehicula pellentesque ligula lobortis eu.</p>
+              <h3>Mitä nettisivuihin tarvitsee?</h3>
+              <p>Nettisivuja tehdessä, tarvitset oman verkko-osoitteen, sekä palvelun jossa sivut ovat ylläpidettyinä. Mikäli sinulla ei vielä näitä ole, voin olla avuksi näiden hankkimisessa tai voin toteuttaa sinulle avaimet-käteen periaatteella ratkaisun. Huomioithan, että verkkotunnus, sekä web-hotelli ovat kuukausi/vuosi-tasoilla erikseen maksettavia palveluita. Jäikö jokin mietityttämään? Ota yhteyttä niin toteutetaan sinulle yhdessä paras ratkaisu!</p>
             </div>
           </div>
       </main>

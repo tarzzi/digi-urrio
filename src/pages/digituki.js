@@ -27,22 +27,10 @@ const IndexPage = () => {
                   <div  className='lg:col-span-2 md:col-span-2 sm:col-span-1'>
                     <p>Tarvitsetko apua laitteen käytössä? Mietitkö miten uutta älypuhelintasi käytetään?</p></div>
                 </ServiceCard>
-                <ServiceCard title='Jotain muuta?'>
-                  <div className='lg:col-span-2 md:col-span-2 sm:col-span-1'><p>Sinulle, joka tahdot tahdot juuri tarpeillesi räätälöidyn paketin.<br /> <br />Ota yhteyttä, niin suunnitellaan yhdessä juuri teille sopiva ratkaisu.</p></div>
-                </ServiceCard>
-                <ServiceCard title='Palveluun sisältyy aina'>
-                  <div className='lg:col-span-2 md:col-span-2 sm:col-span-1'>
-                    <ul className='listline'>
-                      <li>Nopeasti latautuvat sivut</li>
-                      <li>Kaikille päätelaitteille skaalautuvat sivut</li>
-                      <li>Hakukoneoptimointi</li>
-                      <li>Tyytyväisyystakuu</li>
-                    </ul></div>
-                </ServiceCard>
               </div>
               <div className='mt-8 mb-20'>
-                <h3>Tähän usein kysyttyä digituesta </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in luctus est, eu auctor lacus. Suspendisse pulvinar, sem at mollis pretium, ligula justo ultrices urna, ut vestibulum odio arcu vel tortor. Donec vehicula accumsan feugiat. Duis ornare sed nisi mattis hendrerit. Sed sagittis tellus ac purus porttitor euismod. Curabitur felis nibh, hendrerit quis placerat id, placerat in quam. Nullam malesuada mollis suscipit. Etiam interdum odio non tellus ullamcorper, non fringilla eros ornare. Sed fermentum fringilla est, vehicula pellentesque ligula lobortis eu.</p>
+                <h3>Digitukea Jyväskylän alueella</h3>
+                <p>Etkö ole varma mitä tarvitsisit? Ota yhteyttä niin löydetään ratkaisu pulmaasi. Hinnat sisältävät alv. 24%. Muista myös hyödyntää kotitalousvähennys! Vähennys koskee tietokoneen asennus- ja opastustyötä, tietokoneohjelmien asennusta ja päivitystä, sekä ohjelmien ja tiedostojen virustarkistusta.</p>
               </div>
             </div>
         </main>
