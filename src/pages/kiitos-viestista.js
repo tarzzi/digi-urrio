@@ -15,9 +15,9 @@ const IndexPage = () => {
             />
           </Helmet>
           <div className='bg'>
-          <Banner title='Kiitos viestistäsi!' />
+          <Banner title='Kiitos viestistäsi!' idName='b3' />
             <div id='container' className='w-4/5 mx-auto text-center'>
-              <h3>Vastaamme sinulle mahdollisimman pian 🙂</h3>
+              <h3 className='my-5'>Vastaan sinulle mahdollisimman pian 🙂</h3>
               <div className='my-10'>
                 <Link className='button transition-all duration-200' to='/'>Takaisin etusivulle</Link>
               </div>
