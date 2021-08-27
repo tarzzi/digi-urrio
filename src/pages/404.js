@@ -31,11 +31,11 @@ const NotFoundPage = () => {
       <title>Not found</title>
       <h1 style={headingStyles}>Page not found</h1>
       <p style={paragraphStyles}>
-        Sorry{" "}
+        Anteeksi{" "}
         <span role="img" aria-label="Pensive emoji">
           😔
         </span>{" "}
-        we couldn’t find what you were looking for.
+        en löytänyt etsimääsi sivua.
         <br />
         {process.env.NODE_ENV === "development" ? (
           <>
@@ -45,7 +45,7 @@ const NotFoundPage = () => {
           </>
         ) : null}
         <br />
-        <Link to="/">Go home</Link>.
+        <Link to="/">Takaisin etusivulle</Link>.
       </p>
     </main>
   )
