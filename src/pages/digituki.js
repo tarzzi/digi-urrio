@@ -17,10 +17,11 @@ const IndexPage = () => {
             <meta name="description" content="Digi-Urriolta nettisivut ja tekninen tuki, hyvään hintaan, tyytyväisyystakuulla."/>
             <meta name="keywords" content="nettisivut, nettisivu, websivut, web-sivut, kotisivu, kotisivut, tekninen tuki, digiapu, tekniikka-apu, nettisivut yritykselle, halvat nettisivut, nettisivut jyväskylä, websivut jyväskylä, verkkosivut jyväskylä, kotisivut jyväskylä, halpa, opiskelija, hyvät, hyvä, laatu"/>
             <meta name="robots" content="index, follow"/>
-            <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+            <meta charset="UTF-8" />
             <meta name="language" content="Finnish"/>
             <meta name="revisit-after" content="7 days"/>
             <meta name="author" content="Tarmo Urrio" />
+            <title>Digi-Urrio - Tekninen tukesi Jyväskylässä</title>
           </Helmet>
           <Banner title='Digituki' subtitle='Apuna digiviidakossa' idName='b3' />
             <div id='container' className='mt-8 w-4/5 mx-auto'>
