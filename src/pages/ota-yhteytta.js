@@ -25,8 +25,7 @@ const IndexPage = () => {
         <Banner title='Ota yhteyttä' subtitle='Kysyjälle vastataan' idName='b5' />
           <div id='container' className='mt-8 my-4 w-4/5 mx-auto'>
             <div className='grid grid-cols-1 justify-center items-center text-center gap-8'>
-              <p>Puhelin: 050-1234567</p>
-              <p>Sähköposti: digi@urrio.fi</p>
+              <p>Sähköposti: &#100;&#105;&#103;&#105;&#64;&#117;&#114;&#114;&#105;&#111;&#46;&#102;&#105;</p>
               <h4>Voit myös laittaa kyselyn oheisen lomakkeen kautta</h4>
             </div>
             <form className='grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-2 my-5 mx-auto w-1/2 lomake' acceptCharset="UTF-8" action="https://formsubmit.co/digi@urrio.fi" method="POST">
