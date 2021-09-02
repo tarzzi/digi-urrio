@@ -36,7 +36,7 @@ const IndexPage = () => {
             </div>
       </Link>
       <div className='clear-both'></div>
-      <div className='text-center mt-10 mb-5'>
+      <div className='text-center mt-10 lg:mb-15 md:mb-20 sm:mb-15'>
         <h3>Nettisivut, sekä tekninen tuki suoraan Jyväskylästä.</h3>
         <h3>Tyytyväisyystakuulla!</h3>
       </div>

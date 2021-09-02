@@ -29,7 +29,7 @@ const IndexPage = () => {
               <p>Sähköposti: &#100;&#105;&#103;&#105;&#64;&#117;&#114;&#114;&#105;&#111;&#46;&#102;&#105;</p>
               <h4>Voit myös laittaa kyselyn oheisen lomakkeen kautta</h4>
             </div>
-            <form className='grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-2 my-5 mx-auto w-1/2 lomake' acceptCharset="UTF-8" action="https://formsubmit.co/digi@urrio.fi" method="POST">
+            <form className='grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-2 mt-5 mb-20 mx-auto w-1/2 lomake' acceptCharset="UTF-8" action="https://formsubmit.co/digi@urrio.fi" method="POST">
 
               <p>Nimi</p>
                 <input className='sm:col-span-1 md:col-span-1 lg:col-span-2' type="text" name="name" placeholder="" />

@@ -29,7 +29,7 @@ const IndexPage = () => {
         <div id='bg'>
           <div id='container' className='mt-8 w-4/5 mx-auto'>
             <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-5 justify-center items-center'>
-              <StaticImage className='rounded-full mx-auto' src='https://urrio.fi/profile.jpg' alt='Tarmo Urrio'  />
+              <StaticImage className='rounded-full mx-auto kuva' src='https://urrio.fi/profile.jpg' alt='Tarmo Urrio'  />
               <div className='mb-5 lg:col-span-2 md:col-span-2 sm:col-span-1' >
                 <p className='font-semibold text-2xl mb-2'>Hei! Olen Tarmo, ohjelmistotekniikan opiskelija Jyväskylästä.</p>
                 <p className='lg:w-3/4 md:w-3/4 sm:w-full'>{biotext}</p>
