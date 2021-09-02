@@ -1,10 +1,13 @@
+$gray: #2B2C28;
+$green-light: #7DE2D1;
 .menu {
   position: fixed;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  background: #ffffff;
+  color:$green-light;
+  background: $gray;
   z-index: 1031;
 
   display: flex;

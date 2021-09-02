@@ -1,9 +1,14 @@
-
+$black: #131515;
+$gray: #2B2C28;
+$green-dark: #339989;
+$green-light: #7DE2D1;
+$white: #FFFAFB;
 .nav{
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid $green-dark;
   position: fixed;
   width: 100%;
-  background-color: white;
+  background-color: $gray;
+  color: $white;
   top: 0;
   padding: 0.5rem 0;
   text-align: left;
@@ -14,7 +19,7 @@
     margin: 0 1rem;
   }
   a:hover{
-    color: rgb(0, 142, 208);
+    color: $green-dark;
   }
 }
 
@@ -33,12 +38,16 @@
     align-items: center;
     margin: 0;
     padding: 1rem 0;
-    border-bottom: 1px solid rgba(114, 114, 114, 0.5);
+    background-color: $gray;
+    color: $green-light;
+    border-bottom: 1px solid $green-dark;
     width: 100%;
     font-size: 1.5rem;
     position: relative;
     button{
       border: none;
+      background-color: $gray;
+      color: $green-light;
     }
   }
 }
