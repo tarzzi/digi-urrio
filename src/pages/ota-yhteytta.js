@@ -27,9 +27,9 @@ const IndexPage = () => {
           <div id='container' className='mt-8 my-4 w-4/5 mx-auto'>
             <div className='grid grid-cols-1 justify-center items-center text-center gap-8'>
               <p>Sähköposti: &#100;&#105;&#103;&#105;&#64;&#117;&#114;&#114;&#105;&#111;&#46;&#102;&#105;</p>
-              <h4>Voit myös laittaa kyselyn oheisen lomakkeen kautta</h4>
+              <h4><strong>Yritystoiminta keskeytettynä, nämä sivut toimivat esimerkkinä tuotetusta ratkaisusta, kiitos mielenkiinnostasi!</strong></h4>
             </div>
-            <form className='grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-2 mt-5 mb-20 mx-auto w-1/2 lomake' acceptCharset="UTF-8" action="https://formsubmit.co/digi@urrio.fi" method="POST">
+            <form className='grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-2 mt-5 mb-20 mx-auto w-1/2 lomake' acceptCharset="UTF-8">
 
               <p>Nimi</p>
                 <input className='sm:col-span-1 md:col-span-1 lg:col-span-2' type="text" name="name" placeholder="" />
@@ -48,7 +48,7 @@ const IndexPage = () => {
               <input type="hidden" name="_template" value="box" />
               <input type="hidden" name="_subject" value="Yhteydenottopyyntö" />
               <div className='lg:inline sm:hidden'></div>
-              <button type="submit">Lähetä</button>
+              <button>Lähetä</button>
             </form>
           </div>
         </div>
